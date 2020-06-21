@@ -1,6 +1,5 @@
 
 body{
-   
     background-color: hsl(0, 0%, 98%);
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
@@ -73,6 +72,7 @@ p{
     background-color: #ffffff;
     position: relative;
     top: 100px;
+    border-top-style: solid;
     border-top-color: hsl(180, 62%, 55%);
     box-shadow: 5px 10px 8px #888888;
     
@@ -107,5 +107,36 @@ p{
 
 
 
-  .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); }
+  .attribution { font-size: 14px; text-align: center;}
+  .attribution a { color: hsl(228, 45%, 44%);
+                    text-decoration: none;
+}
+
+  @media (max-width: 768px) {
+      .section{
+          flex-direction: column;
+          flex-wrap: wrap;
+      }
+
+      .supervisor{
+          position: relative;
+          top: 0;
+      }
+      .karma{
+          order: 1;
+      }
+      .calculator{
+          position: relative;
+          top: 0;
+          order: 2;
+      }
+
+      .icon > img{
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: 120px;
+        left: 300px;
+    }
+    
+  }
