@@ -48,7 +48,6 @@ p{
     margin: 10px;
     padding: 30px;
     border: solid 5px #ffffff;
-    
 }
 
 .icon > div{
@@ -68,10 +67,13 @@ p{
     left: 200px;
 }
 
+
+
 .supervisor{
     background-color: #ffffff;
     position: relative;
     top: 100px;
+    border-top-color: hsl(180, 62%, 55%);
     box-shadow: 5px 10px 8px #888888;
     
 }
@@ -79,12 +81,14 @@ p{
 .team{
     background-color:#ffffff;
     box-shadow: 5px 10px 8px #888888;
+    border-top-color: hsl(0, 78%, 62%);
 }
 
 .karma{
     background-color:#ffffff;
     order: 2;
     box-shadow: 5px 10px 8px #888888;
+    border-top-color: hsl(34, 97%, 64%);
 }
 
 .calculator{
@@ -93,6 +97,7 @@ p{
     top: 100px;
     order: 1;
     box-shadow: 5px 10px 8px #888888;
+    border-top-color: hsl(212, 86%, 64%);
 }
 
 
